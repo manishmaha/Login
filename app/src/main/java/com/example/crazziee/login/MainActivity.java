@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        et_Username = (EditText) findViewById(R.id.Username);
-        et_password = (EditText) findViewById(R.id.Password);
+        et_Username = (EditText) findViewById(R.id.textView4);
+        et_password = (EditText) findViewById(R.id.textView5);
         btn_login = (Button) findViewById(R.id.btnlogin);
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
